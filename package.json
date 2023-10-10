@@ -3,9 +3,9 @@
   "description": "A background with three.js",
   "version": "0.1.0",
   "author": "Nahuel Rosas <nahuel.rosas@mi.unc.edu.ar>",
-  "homepage": "https://github.com/nahuelRosas/robust-ui#readme",
+  "homepage": "https://github.com/nahuelRosas/backgroundThree#readme",
   "bugs": {
-    "url": "https://github.com/nahuelRosas/robust-ui/issues"
+    "url": "https://github.com/nahuelRosas/backgroundThree/issues"
   },
   "license": "MIT",
   "sideEffects": false,
