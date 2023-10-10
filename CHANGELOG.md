@@ -1,5 +1,11 @@
 # backgroundthree
 
+## 0.4.0
+
+### Minor Changes
+
+- 3b1db1f: Try fix errors
+
 ## 0.3.0
 
 ### Minor Changes
