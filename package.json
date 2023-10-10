@@ -31,20 +31,14 @@
     "version-packages": "changeset version",
     "release": "changeset publish",
     "version:dev": "changeset version --snapshot dev",
-    "release:dev": "changeset publish --tag dev",
-    "postinstall": "pnpm run build"
-  },
-  "publishConfig": {
-    "access": "public"
+    "release:dev": "changeset publish --tag dev"
   },
   "dependencies": {
     "@react-three/fiber": "^8.14.5",
     "chroma-js": "^2.4.2",
     "three": "^0.157.0",
-    "terser": "^5.21.0",
     "react": "^18.2.0",
-    "next": "^13.5.4",
-    "tsup": "^7.2.0"
+    "next": "^13.5.4"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.8",
@@ -58,7 +52,15 @@
     "@types/node": "^20.8.4",
     "typescript": "^5.2.2",
     "prettier": "^3.0.3",
+    "terser": "^5.21.0",
     "eslint": "^8.51.0",
-    "rimraf": "^5.0.5"
+    "rimraf": "^5.0.5",
+    "tsup": "^7.2.0"
+  },
+  "packageManager": "pnpm@7.15.0",
+  "repository": "https://github.com/nahuelrosas/backgroundThree",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
   }
 }
