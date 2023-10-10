@@ -1,5 +1,11 @@
 # backgroundthree
 
+## 0.5.0
+
+### Minor Changes
+
+- 19189cc: fix props
+
 ## 0.4.0
 
 ### Minor Changes
