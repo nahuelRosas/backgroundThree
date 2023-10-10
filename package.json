@@ -18,7 +18,7 @@
   "scripts": {
     "build": "tsup-node src --dts",
     "dev": "pnpm build:fast -- --watch",
-    "clean": "rimraf dist .turbo node_modules",
+    "clean": "rimraf dist .turbo node_modules pnpm-lock.yaml",
     "format:write": "prettier --write \"**/*.{ts,tsx,md}\" --cache",
     "format:check": "prettier --check \"**/*.{ts,tsx,md}\" --cache",
     "typecheck": "tsc --noEmit",
@@ -41,8 +41,10 @@
     "@react-three/fiber": "^8.14.5",
     "chroma-js": "^2.4.2",
     "three": "^0.157.0",
+    "terser": "^5.21.0",
     "react": "^18.2.0",
-    "next": "^13.5.4"
+    "next": "^13.5.4",
+    "tsup": "^7.2.0"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.8",
@@ -57,8 +59,6 @@
     "typescript": "^5.2.2",
     "prettier": "^3.0.3",
     "eslint": "^8.51.0",
-    "terser": "^5.21.0",
-    "rimraf": "^5.0.5",
-    "tsup": "^7.2.0"
+    "rimraf": "^5.0.5"
   }
 }

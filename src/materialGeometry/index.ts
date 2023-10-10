@@ -17,7 +17,7 @@ export interface SubSurfaceMaterialUniformsInterface {
 }
 
 export const defaultUniforms = UniformsUtils.clone(
-  SubsurfaceScatteringShader.uniforms
+  SubsurfaceScatteringShader.uniforms,
 );
 
 export const DodecahedronGeometryInstance = new DodecahedronGeometry(5, 0);

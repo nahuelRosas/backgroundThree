@@ -14,7 +14,8 @@ export default function Background({ ...props }: CanvasProps) {
         zIndex: -1,
         background: "#010208",
       }}
-      {...props}>
+      {...props}
+    >
       <SceneRenderer />
     </Canvas>
   );

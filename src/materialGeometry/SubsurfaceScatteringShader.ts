@@ -22,10 +22,10 @@ function replaceAll({
 
 const meshphongFragHead = ShaderChunk.meshphong_frag.slice(
   0,
-  ShaderChunk.meshphong_frag.indexOf("void main() {")
+  ShaderChunk.meshphong_frag.indexOf("void main() {"),
 );
 const meshphongFragBody = ShaderChunk.meshphong_frag.slice(
-  ShaderChunk.meshphong_frag.indexOf("void main() {")
+  ShaderChunk.meshphong_frag.indexOf("void main() {"),
 );
 
 const SubsurfaceScatteringShader = {
@@ -88,7 +88,7 @@ const SubsurfaceScatteringShader = {
           RE_Direct_Scattering(directLight, vUv, GeometricContext(geometryNormal, geometryViewDir), reflectedLight);
         #endif
       `,
-      })
+      }),
     ),
 };
 
