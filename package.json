@@ -1,7 +1,7 @@
 {
   "name": "backgroundthree",
   "description": "A background with three.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Nahuel Rosas <nahuel.rosas@mi.unc.edu.ar>",
   "homepage": "https://github.com/nahuelRosas/backgroundThree#readme",
   "bugs": {
