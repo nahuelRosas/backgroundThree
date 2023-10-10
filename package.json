@@ -57,10 +57,7 @@
     "rimraf": "^5.0.5",
     "tsup": "^7.2.0"
   },
-  "packageManager": "pnpm@7.15.0",
-  "repository": "https://github.com/nahuelrosas/backgroundThree",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com",
     "access": "public"
   }
 }
