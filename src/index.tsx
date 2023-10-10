@@ -2,7 +2,7 @@ import { Canvas, CanvasProps } from "@react-three/fiber";
 import { SceneRenderer } from "./renderScene";
 import React from "react";
 
-export default function Background({ ...props }: CanvasProps) {
+export default function Background({ ...props }: CanvasProps | undefined) {
   return (
     <Canvas
       style={{
@@ -14,8 +14,7 @@ export default function Background({ ...props }: CanvasProps) {
         zIndex: -1,
         background: "#010208",
       }}
-      {...props}
-    >
+      {...props}>
       <SceneRenderer />
     </Canvas>
   );
