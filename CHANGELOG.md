@@ -1,5 +1,11 @@
 # backgroundthree
 
+## 0.7.0
+
+### Minor Changes
+
+- 7a3b6af: add types three
+
 ## 0.6.0
 
 ### Minor Changes
