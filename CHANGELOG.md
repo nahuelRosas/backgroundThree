@@ -1,5 +1,11 @@
 # backgroundthree
 
+## 0.6.0
+
+### Minor Changes
+
+- 2c9ab79: remove props
+
 ## 0.5.0
 
 ### Minor Changes
