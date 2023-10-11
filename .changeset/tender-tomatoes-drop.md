@@ -1,0 +1,5 @@
+---
+"backgroundthree": minor
+---
+
+remove props
